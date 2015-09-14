@@ -1,0 +1,19 @@
+void setup (){
+ size(500,500);
+ background(255);
+ noStroke();
+ colorMode(HSB,100);
+}
+
+void draw () { 
+int circle = 30;
+while (circle<width-18){
+  int circlex = 30; 
+  while (circlex<height-18){ 
+    ellipse(circle,circlex,15,15);
+    fill(random(100),100,100);
+    circlex=circlex + 20;
+  }
+  circle=circle+20;
+}
+}
