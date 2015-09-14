@@ -8,7 +8,7 @@ void setup (){
 void draw(){
   int ball = 30;
   while (ball< 475) {
-    ellipse(ball,ball,25,25);
+    ellipse(ball,ball,23,23);
     ball= ball + 20;
   }
 }
