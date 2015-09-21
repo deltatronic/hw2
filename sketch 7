@@ -17,3 +17,4 @@ for (gridy=20; gridy<480; gridy++){
   gridy=gridy+17;
 }
 }
+ 
